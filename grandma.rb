@@ -12,7 +12,7 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 LOUD = "i love you grandma!".upcase
-def speak_to_grandma
+def speak_to_grandma(LOUD)
   if LOUD
     puts "i love you too pumpkin!".upcase
   else
