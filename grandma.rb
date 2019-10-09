@@ -15,6 +15,7 @@ LOUD = gets.chomp
 def speak_to_grandma
   if LOUD == "i love you grandma!".upcase
     puts "i love you too pumpkin!".upcase
-
+  else
+    puts "huh?! speak up, sonny!".upcase
   end
 end
