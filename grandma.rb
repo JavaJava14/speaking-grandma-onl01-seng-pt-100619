@@ -20,5 +20,3 @@ def speak_to_grandma(phrase)
     puts "no, not since 1938!".upcase
   end
 end
-
-speak_to_grandma(phrase)
