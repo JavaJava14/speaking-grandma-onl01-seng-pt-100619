@@ -4,7 +4,7 @@
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
-# If you shout, she can hear you (or at least she thinks so) 
+# If you shout, she can hear you (or at least she thinks so)
 # and yells back
 
 # NO, NOT SINCE 1938!
@@ -15,6 +15,6 @@ LOUD = gets.chomp
 def speak_to_grandma
   if LOUD == "i love you grandma!".upcase
     puts "i love you too pumpkin!".upcase
-    
+
   end
 end
